@@ -1,0 +1,159 @@
+ *{
+  font-family: 'Nunito', sans-serif;
+  padding: 0%;
+  margin: 0%;
+}
+.container{
+    margin: 20px 100px;
+}
+/* navbar style*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar .logo{
+    font-size: 30px;
+}
+.navbar .logo .food{
+    font-weight: 800;
+}
+.navbar .menu a{
+    margin: 0px 15px;
+    line-height: 50px;
+    color: rgb(37, 37, 37);
+    cursor: pointer;
+    text-decoration: none;
+}
+/* Hero Section */
+.hero_section{
+    margin: 80px 0px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: lighter;
+}
+.hero_section h1{
+    color: #272727;
+    letter-spacing: 0.5px;
+    font-size: 60px;
+    font-weight: 800;
+    margin: 10px 0px;
+}
+.hero_section .content{
+    color: #676767;
+    font-family: inherit;
+    font-size: 16px;
+    width: 34rem;
+    line-height: 36px;
+}
+.hero_section button{
+    padding: 11px 23px;
+    border-radius: 100px;
+    border: 2px solid #f7b614;
+    font-size: 14px;
+}
+.hero_section .btn_1{
+    color: #f7b614;
+    transition: 0.5s;
+}
+.hero_section .btn_1:hover{
+    background-color: #f7b614;
+    color: white;
+}
+.hero_section .btn_2{
+    background-color: #f7b614;
+    color: white;
+    transition: 0.5s;
+}
+.hero_section .btn_2:hover{
+    background-color: #ff4800;
+    border-color: #ff4800;
+}
+/*card section*/
+.popular_goods{
+    background-color:rgb(240, 232, 232);
+    padding: 3rem 0px;
+
+}
+.cards_section{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+}
+.cards_section .card-body .fa-star{
+    color: #f7b614;
+}
+.cards_section .card-body p{
+    font-size: 14px;
+    color: #565656;
+    margin: 10px 0px;
+}
+.cards_section .card-body h2{
+    font-size: 22px;
+    font-weight: 700;
+}
+.cards_section .card-body b{
+    font-size: 19px;
+    font-weight: 700;
+}
+.cards_section .card-footer b{
+    font-size: 19px;
+    font-weight: 700;
+}
+/* how it works*/
+.popular_goods .card-header .fa{
+    padding: 20px;
+    border: 2px solid gold;
+    height: 20px;
+    width: 20px;
+    line-height: 17px;
+    border-radius: 100%;
+    color: gold;
+}
+/*4th sectiom*/
+.hero_section ul li{
+    list-style: none;
+    line-height: 32px;
+    font-weight: 800;
+    font-size: 15px;
+}
+.hero_section ul li .fa{
+    color: #f7b614;
+    font-size: 13px;
+    margin-right: 4px;
+}
+/*footer*/
+footer{
+    background-color: #282932;
+    padding: 5rem 1rem;
+    text-align: center;
+}
+footer .logo{
+    font-size: 45px;
+    color: white;
+}
+footer .logo .food{
+    font-weight: 800;
+    color: #f7b614;
+}
+footer p{
+    color: #adacac;
+    width: 38rem;
+}
+footer .links a{
+    width: 50px;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #f7b614;
+    margin: 0px 4px;
+    transition: 0.5s;
+}
+footer .links a:hover{
+    background-color: #ff4800;
+}
+footer .links a:hover .fa{
+    color: white;
+}
